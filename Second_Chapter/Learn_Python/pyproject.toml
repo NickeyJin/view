@@ -6,7 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
 
-# 这是一个“学语法 + 写小项目”的脚本工程，不是要发布到 PyPI 的库，
-# 所以关掉打包，`uv run` 直接跑目录里的 .py 文件就行。
 [tool.uv]
 package = false
