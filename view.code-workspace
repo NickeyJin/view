@@ -1,7 +1,29 @@
 {
   "folders": [
-    { "name": "机器人动作", "path": "robot_actions" },
-    { "name": "贪吃蛇",     "path": "snake" }
+    {
+      "name": "第一章，学习Linux",
+      "path": "First_Chapter/Learn_Linux"
+    },
+    {
+      "name": "第一章，学习Git",
+      "path": "First_Chapter/Learn_Git"
+    },
+    {
+      "name": "第二章，c++基础",
+      "path": "Second_Chapter/Learn_C++"
+    },
+    {
+      "name": "第二章，cmaker基础",
+      "path": "Second_Chapter/Learn_Cmaker"
+    },
+    {
+      "name": "第二章，python基础",
+      "path": "Second_Chapter/Learn_Python"
+    },
+    {
+      "name": "机器学习",
+      "path": "deeplearn"
+    }
   ],
   "settings": {
     "cmake.useCMakePresets": "always",

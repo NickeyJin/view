@@ -14,7 +14,7 @@ class Action{
 
 class ForwardAction : public Action {
     public:
-        void execute() const override;
+        void execute() const override; //这也是虚函数
         explicit ForwardAction( double distance ); // 别想了，你只能通过其他类的构造函数来创建这个类的对象
         double getDistance() const { return distance_; };
         void setDistance( double distance ) { distance_ = distance > 0 ? distance : throw std::invalid_argument("前进距离必须大于 0，收到：" + std::to_string(distance)); };
